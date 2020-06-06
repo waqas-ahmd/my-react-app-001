@@ -47,8 +47,8 @@ code {
 
 .space{
   margin: auto;
-  max-width: 40%;
-  min-width: 600pt;
+  min-width: 40%;
+  max-width: 600pt;
   padding: 10px;
   align-content: center;
   text-align: justify;
