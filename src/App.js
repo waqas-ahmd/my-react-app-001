@@ -7,7 +7,7 @@ var text1 = text.slice(0,Math.floor(text.length/3));
 function App() {
 
   const [darkMode, setDarkMode] = React.useState(false);
-  const [counter, setCounter] = React.useState(1);
+  const [counter, setCounter] = React.useState(0);
   document.body.className = darkMode? "dark":"light";
 
   return (
