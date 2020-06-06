@@ -34,6 +34,7 @@ code {
   width: 30px;
   height: 30px;
   outline: none;
+  margin-bottom: 15pt;
 }
 
 .toggle-button{
@@ -47,7 +48,7 @@ code {
 
 .space{
   margin: auto;
-  min-width: 50%;
+  min-width: 40%;
   max-width: 400pt;
   padding: 10px;
   text-align: justify;
