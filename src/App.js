@@ -16,7 +16,7 @@ function App() {
         <h3>Lorem TEXT:</h3>
         <p>{text1}</p>
       </div>
-      <button className= {(darkMode? "light":"dark") + " toggle-button"} onClick={() => setDarkMode(prevMode => !prevMode)}>{darkMode? "Light Mode":"Dark Mode"}</button>
+      <button className= {(darkMode? "light":"dark") + " toggle-button"} onClick={() => setDarkMode(prevMode => !prevMode)}>Toggle Light</button>
       <h2 className={darkMode? "dark":"light"}>{"Counter: " + counter}</h2>
       <button className={(darkMode? "light":"dark") + " button"}  onClick={() => setCounter(prevMode => (prevMode+1))}>+</button>
       <span> </span>
